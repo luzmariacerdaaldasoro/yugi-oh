@@ -1,0 +1,18 @@
+let pts1 = 4000
+let pts2 = 4000
+for (let i = 1); i = 100 ; i++;
+    let jugador1 = prompt ("Ingresa el nombre del primer jugador");
+    let jugador2 = prompt ("Ingresa el nombre del segundo jugaodr");
+    let atk1 = parseInt(prompt (jugador1 + " ingresa los puntos de ataque de tu carta"));
+    let atk2 = parseInt(prompt (jugador2 + " ingresa los puntos de ataque de tu carta"));
+        if (atk1 < atk2 );
+            console.log (jugador1 + " tu monstruo ha sido derrotado por " + jugador2 + "." + jugador2 + " ha ganado esta batalla");
+            let dif = atk2-atk1;
+                pts1 = pts1-dif;
+        else
+            console.log (jugador2 + " tu monstruo ha sido derrotado por " + jugador1 + "." + jugador1 + " ha ganado esta batalla"); 
+            let dif = atk1-atk2;
+            pts2 = pts2-dif;
+
+if pts1 = 0 || pts2 = 0;
+break
